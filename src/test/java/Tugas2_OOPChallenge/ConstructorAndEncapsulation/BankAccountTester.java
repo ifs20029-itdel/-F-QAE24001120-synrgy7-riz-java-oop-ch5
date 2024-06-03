@@ -11,7 +11,7 @@ public class BankAccountTester {
 
         System.out.print("Enter initial balance:");
         double balance = scanner.nextDouble();
-        scanner.nextLine(); // Mengonsumsi newline yang tersisa
+        scanner.nextLine(); // Mengonsumsi newline yang sudah tersisa
 
         System.out.print("Enter customer name:");
         String customerName = scanner.nextLine();
